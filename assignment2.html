@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Create a table</title>
+    <style>body>script+div[style^="text"]{display:none}html,body {overflow-x:hidden!important}</style>
+    </head>
+<body>
+<h1>Create a Table</h1>
+    <form>
+        <h2>Rows</h2>
+        <label for="rows">  </label>
+        <!-- input text field -->
+        <input type="text" name="rows" placeholder="Enter number of rows" id="rows" required/>
+        <h2>Columns</h2>
+        <label for ="cols"> </label>
+        <input type="text" name="cols" placeholder="Enter number of columns" id="cols" required/><br>
+        <!-- button triggers function makeTable() in javascript-->
+        <input name="output" type="button" value="Click to draw a table" onclick="makeTable();"/>
+        <input name="reset" type="reset" value="reset"/>
+    </form>
+    <br> <br>
+    <div class="table_container">
+        <!-- table result shown here -->
+        <div id="result"></div>
+            <div class="table">
+
+                <script src="assignment2.js"></script>
+
+        </div>
+
+</div>
+<div class="footer">
+<footer>
+    <p> Copyright &copy; COMP125 SEC.004 Binet Sheriff 301253726  </p>
+</footer>
+</div>
+</body>
+</html>

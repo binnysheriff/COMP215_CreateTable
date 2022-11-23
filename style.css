@@ -1,0 +1,76 @@
+body {
+    background-image: url("bg5.jpg");
+    width:100%;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+
+form, h1,img {
+    margin: 10px;
+}
+
+table {
+    max-width: 100%;
+    margin-bottom: 100px;
+    animation: 3s infinite alternate slidein;
+    overflow:hidden;
+
+}
+table, td{
+    border: 1px solid;
+    text-align: center;
+}
+
+.table_container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: helvetica, arial, sans-serif;
+
+}
+label { display: block;}
+input {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+header h1 {
+    color: #fff;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    padding: 0.5em;
+}
+
+h2{
+    color: aqua;
+    font-family: helvetica, arial, sans-serif;
+}
+
+td:hover{
+    background: white !important;
+}
+td {
+    color: aqua;
+    font-weight: bold !important;
+    font-size: 15pt;
+}
+
+.footer {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-color: black; opacity:0.6;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    /* Height of the footer */
+    height:40px;
+}
+
